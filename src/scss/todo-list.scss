@@ -1,0 +1,12 @@
+.todo-list {
+  @apply container mx-auto max-w-md p-4;
+  &__field {
+    @apply flex-1 border p-2 rounded-md w-full shadow-sm outline-none;
+  }
+  &__description {
+    @apply resize-none mt-1 w-full;
+  }
+  &__close {
+    @apply bg-red-500;
+  }
+}

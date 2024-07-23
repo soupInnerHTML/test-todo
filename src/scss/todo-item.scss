@@ -1,0 +1,21 @@
+.todo-item {
+  @apply mb-4 bg-white shadow-md rounded-md w-full p-2 pt-1;
+  &__checkbox-wrapper {
+    @apply bg-white shadow-md rounded-md mr-2 flex justify-center;
+  }
+  &__button {
+    @apply disabled:text-gray-400 block text-xs;
+    &-wrapper {
+      @apply flex gap-3.5 p-2;
+    }
+    &--delete {
+      @apply text-red-500;
+    }
+    &--edit {
+      @apply text-blue-500;
+    }
+  }
+  &__text--secondary {
+    @apply text-gray-700 text-sm font-light;
+  }
+}
